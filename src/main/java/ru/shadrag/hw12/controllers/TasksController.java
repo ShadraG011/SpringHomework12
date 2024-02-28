@@ -4,13 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
 import ru.shadrag.hw12.components.Status;
 import ru.shadrag.hw12.domain.FacadeService;
 import ru.shadrag.hw12.models.User;
-import ru.shadrag.hw12.services.interfaces.TasksService;
 import ru.shadrag.hw12.models.Task;
-import ru.shadrag.hw12.services.interfaces.UsersService;
 
 import java.util.Date;
 

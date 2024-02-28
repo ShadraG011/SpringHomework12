@@ -3,7 +3,6 @@ package ru.shadrag.hw12.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ru.shadrag.hw12.models.Task;
-import ru.shadrag.hw12.models.User;
 import ru.shadrag.hw12.repositories.TasksRepository;
 import ru.shadrag.hw12.services.interfaces.TasksService;
 
